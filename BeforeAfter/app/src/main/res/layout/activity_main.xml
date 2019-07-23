@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        android:id="@+id/root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:background="@android:color/transparent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+   <jp.co.purple_mariage.beforeafter.view.support.BeforeAfterView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           app:bgColor="@android:color/black"
+           app:sliderTintColor="@android:color/white"
+           app:sliderIconTint="@android:color/white"
+           app:imageHeightPercent="0.5"
+           app:sliderWidthPercent="0.75"
+   />
+
+</android.support.constraint.ConstraintLayout>
+

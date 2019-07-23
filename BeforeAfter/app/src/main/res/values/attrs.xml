@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BeforeAfterView">
+        <attr name="bgColor" format="integer" />
+        <attr name="beforeSrc" format="integer"/>
+        <attr name="afterSrc" format="integer" />
+        <attr name="sliderTintColor" format="integer"/>
+        <attr name="sliderIconTint" format="integer"/>
+        <attr name="imageHeightPercent" format="float"/>
+        <attr name="sliderWidthPercent" format="float" />
+    </declare-styleable>
+</resources>
